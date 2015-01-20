@@ -161,7 +161,7 @@ bool EraserSprite::getEraser()
 ///@post 
 ///@version 1.0 
 ///@data 2014-8-25 10:40
-void EraserSprite::eraseByBlend(cocos2d::CCPoint& point)
+void EraserSprite::eraseByBlend(const cocos2d::CCPoint& point)
 {
 	switch (m_uiDrawType)
 	{

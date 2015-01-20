@@ -52,7 +52,7 @@ private:
 ///@param[in/out] 
 ///@pre 注意，混合条件
 ///@return 
-	void eraseByBlend(cocos2d::CCPoint& point);
+	void eraseByBlend(const cocos2d::CCPoint& point);
 	void eraseByColorMask();
 
 private:
